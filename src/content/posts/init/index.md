@@ -9,6 +9,7 @@ category: 关于博客的博客
 licenseName: "CC BY 4.0"
 author: RYCD
 draft: false
+cover: '/assets/images/Twilight.jpg'
 copyProtection:
     blockSelection: true
     blockClipboard: false
