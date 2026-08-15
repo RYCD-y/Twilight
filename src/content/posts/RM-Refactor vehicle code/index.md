@@ -11,9 +11,9 @@ author: RYCD
 draft: false
 cover: '/assets/images/WUST_RM_logo.png'
 copyProtection:
-    blockSelection: true
+    blockSelection: false
     blockClipboard: false
-    blockContextMenu: true
+    blockContextMenu: false
     blockDevTools: false
 ---
 
