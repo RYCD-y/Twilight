@@ -3,14 +3,14 @@ title: C语言面向对象编程
 published: 2026-8-11
 updated: 2026-8-11
 pinned: false
-description: C语言面向对象编程笔记
+description: 面向对象好啊，得学
 tags: [C, 面向对象]
 category: 
     - 编程技巧
       - 面向对象
 licenseName: "CC BY 4.0"
 author: RYCD
-draft: false
+draft: true
 # cover: '/assets/images/Twilight.jpg'
 copyProtection:
     blockSelection: false
@@ -60,8 +60,7 @@ C语言面向过程编程就是分析出解决问题所需要的步骤，然后�
 
 按字面理解，多态就是“多种状态”，描述的是一种动态的行为。在C++中，只有通过基类引用或者指针，去调用虚函数[^1]的时候才发生多态，也就是说多态是发生在运行期间的，C++内部通过一个虚表[^2]来实现多态。那么在C语言中，我们也可以按照这个思路来实现。
 
-
-
-
 [^1]: 虚函数：本质即函数指针，通过改变变函数指针使得对外接口指向不同的函数
+
 [^2]: 虚表：即虚函数映射表
+4

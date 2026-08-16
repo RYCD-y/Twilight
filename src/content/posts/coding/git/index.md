@@ -10,7 +10,7 @@ category:
       - git
 licenseName: "CC BY 4.0"
 author: RYCD
-draft: false
+draft: true
 # cover: '/assets/images/Twilight.jpg'
 copyProtection:
     blockSelection: false
@@ -39,11 +39,11 @@ git与现代IDE深度集成，不用git你的IDE就是不完整的   ~~你只用
 
 ### 2. 基本概念
 
-git仓库分为工作区和版本库。工作区即你的仓库中能看到的目录。工作区有一个隐藏目录 .git，这个不算工作区，而是 Git 的版本库,版本库中有一部分特别重要，叫作暂存区（也叫引索）。
+git仓库分为工作区和版本库。工作区即你的仓库中能看到的目录。工作区有一个隐藏目录 .git不算工作区，是 Git 的版本库，里面存了你的存档，版本库里还有一个文件很重要，叫作暂存区（也叫引索），这个暂存区存放了。
 
 ![git_repository](./git_repository.png)
 
-就是你在电脑里能看到的目录，比如上文中的 gafish.github.com 文件夹就是一个工作区
+一次存档可以看成：在工作区把代码修修改改，然后再打一个新的存档点，这个过程在实际coding中就是
 
 - git中将存档点称为提交
 - HEAD是你所在提交的指针
