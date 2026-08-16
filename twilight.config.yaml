@@ -142,7 +142,7 @@ site:
     # bangumi 配置
     bangumi:
         # 用户 ID
-        userId: "RYCD"
+        userId: "こは"
     # OpenGraph 配置
     generateOgImages: false
 
@@ -276,7 +276,7 @@ profile:
     # 头像配置 (相对于 /public 目录)
     avatar: "/assets/images/avatar.jpg"
     # 信息配置
-    name: "RYCD"
+    name: "こは"
     # 简介配置
     bio: "我是猫"
     # 链接配置
