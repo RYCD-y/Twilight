@@ -2,8 +2,8 @@
     "title": "崇实战队主控板v3",
     "description": "基于STM32G4的的嵌入式控制板",
     "type": "project",
-    "startDate": "2026-08-15",
-    "endDate": "",
+    "startDate": "2026-08-12",
+    "endDate": "2026-08-16",
     "skills": [
         "硬件设计",
         "嘉立创",
