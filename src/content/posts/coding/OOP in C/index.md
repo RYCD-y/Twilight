@@ -1,7 +1,7 @@
 ---
 title: C语言面向对象编程
-published: 2026-8-11
-updated: 2026-8-11
+published: 2026-08-11
+updated: 2026-08-11
 pinned: false
 description: 面向对象好啊，得学
 tags: [C, 面向对象]
@@ -10,7 +10,7 @@ category:
       - 面向对象
 licenseName: "CC BY 4.0"
 author: RYCD
-draft: true
+draft: false
 # cover: '/assets/images/Twilight.jpg'
 copyProtection:
     blockSelection: false

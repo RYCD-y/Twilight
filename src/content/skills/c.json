@@ -1,0 +1,16 @@
+{
+    "name": "C",
+    "description": "一种中级编程语言",
+    "icon": "streamline-logos:c-language-logo",
+    "category": "嵌入式",
+    "level": "intermediate",
+    "experience": {
+        "years": 2,
+        "months": 3
+    },
+    "projects": [
+        "崇实战队整车框架v2",
+        "RM步兵战车"
+    ],
+    "color": "#555555"
+}

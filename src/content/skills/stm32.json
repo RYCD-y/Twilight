@@ -1,0 +1,16 @@
+{
+    "name": "STM32",
+    "description": "嵌入式MCU",
+    "icon": "arcticons:zflasher-stm32",
+    "category": "嵌入式",
+    "level": "intermediate",
+    "experience": {
+        "years": 1,
+        "months": 0
+    },
+    "projects": [
+        "崇实战队整车框架v2",
+        "RM步兵战车"
+    ],
+    "color": "#E6007E"
+}

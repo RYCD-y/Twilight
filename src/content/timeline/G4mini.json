@@ -1,0 +1,23 @@
+{
+    "title": "崇实战队主控板v3",
+    "description": "基于STM32G4的的嵌入式控制板",
+    "type": "project",
+    "startDate": "2026-08-15",
+    "endDate": "",
+    "skills": [
+        "硬件设计",
+        "嘉立创",
+        "STM32"
+    ],
+    "achievements": [],
+    "links": [
+        {
+            "name": "GitHub Repository",
+            "url": "https://github.com/WUST-RM-Control/RM_control_framework_v2",
+            "type": "project"
+        }
+    ],
+    "icon": "eos-icons:hardware-circuit",
+    "color": "#1B8A24",
+    "featured": true
+}

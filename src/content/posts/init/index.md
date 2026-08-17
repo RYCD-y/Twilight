@@ -1,7 +1,7 @@
 ---
 title: 果然还是写写博客吧
-published: 2026-8-6
-updated: 2026-8-6
+published: 2026-08-06
+updated: 2026-08-06
 pinned: false
 description: 去年建了博客，可是一直没有维护。又过一年，我觉得还是有必要写写博客
 tags: [碎碎念]

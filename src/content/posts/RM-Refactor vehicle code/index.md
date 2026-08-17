@@ -1,10 +1,10 @@
 ---
 title: 关于崇实战队整车代码框架重构
-published: 2026-8-6
-updated: 2026-8-6
+published: 2026-08-06
+updated: 2026-08-06
 pinned: false
 description: 我直说了，现在的框架就是一坨
-tags: [重构]
+tags: [崇实战队整车框架]
 category: RM
 licenseName: "CC BY 4.0"
 author: RYCD

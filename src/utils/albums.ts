@@ -4,6 +4,7 @@ const albumModules = import.meta.glob('../content/albums/**/*.json', { eager: tr
 
 export interface Photo {
     src: string;
+    type?: "image" | "video";
     alt?: string;
     title?: string;
     description?: string;

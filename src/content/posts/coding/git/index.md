@@ -1,7 +1,7 @@
 ---
-title: git快速食用方法
-published: 2026-8-14
-updated: 2026-8-14
+title: git快速食用指南
+published: 2026-08-14
+updated: 2026-08-14
 pinned: false
 description: 什么？你说你coding这么久了还不会git？
 tags: [git, github, 入门]
@@ -10,7 +10,7 @@ category:
       - git
 licenseName: "CC BY 4.0"
 author: RYCD
-draft: true
+draft: false
 # cover: '/assets/images/Twilight.jpg'
 copyProtection:
     blockSelection: false

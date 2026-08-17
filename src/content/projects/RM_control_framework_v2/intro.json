@@ -1,0 +1,20 @@
+{
+    "title": "崇实战队整车框架v2",
+    "description": "严格分层, 使用面向对象思想的嵌入式系统框架",
+    "image": "./WUST_RM_logo.png",
+    "category": "embedded",
+    "techStack": [
+        "C",
+        "Git",
+        "STM32"
+    ],
+    "status": "in-progress",
+    "sourceCode": "https://github.com/WUST-RM-Control/RM_control_framework_v2",
+    "startDate": "2026-08-15",
+    "endDate": "",
+    "featured": true,
+    "tags": [
+        "Personal Project",
+        "Open Source Project"
+    ]
+}

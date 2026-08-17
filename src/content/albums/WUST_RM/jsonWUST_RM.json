@@ -1,0 +1,365 @@
+{
+    "title": "崇实战队",
+    "description": "崇实战队的帅哥(其实是奶龙？)们",
+    "cover": "photo_40_2026-08-17_22-46-57.jpg",
+    "date": "2026-08-07T00:00:00.000Z",
+    "location": "湖北武汉",
+    "tags": [
+        "崇实战队"
+    ],
+    "layout": "masonry",
+    "columns": 3,
+    "photos": [
+        {
+            "src": "./photo_1_2026-08-17_22-46-57.jpg",
+            "alt": "photo_1",
+            "title": "photo_1"
+        },
+        {
+            "src": "./photo_2_2026-08-17_22-46-57.jpg",
+            "alt": "photo_2",
+            "title": "photo_2"
+        },
+        {
+            "src": "./photo_3_2026-08-17_22-46-57.jpg",
+            "alt": "photo_3",
+            "title": "photo_3"
+        },
+        {
+            "src": "./photo_4_2026-08-17_22-46-57.jpg",
+            "alt": "photo_4",
+            "title": "photo_4"
+        },
+        {
+            "src": "./photo_5_2026-08-17_22-46-57.jpg",
+            "alt": "photo_5",
+            "title": "photo_5"
+        },
+        {
+            "src": "./photo_6_2026-08-17_22-46-57.jpg",
+            "alt": "photo_6",
+            "title": "photo_6"
+        },
+        {
+            "src": "./photo_7_2026-08-17_22-46-57.jpg",
+            "alt": "photo_7",
+            "title": "photo_7"
+        },
+        {
+            "src": "./photo_8_2026-08-17_22-46-57.jpg",
+            "alt": "photo_8",
+            "title": "photo_8"
+        },
+        {
+            "src": "./photo_9_2026-08-17_22-46-57.jpg",
+            "alt": "photo_9",
+            "title": "photo_9"
+        },
+        {
+            "src": "./photo_10_2026-08-17_22-46-57.jpg",
+            "alt": "photo_10",
+            "title": "photo_10"
+        },
+        {
+            "src": "./photo_11_2026-08-17_22-46-57.jpg",
+            "alt": "photo_11",
+            "title": "photo_11"
+        },
+        {
+            "src": "./photo_12_2026-08-17_22-46-57.jpg",
+            "alt": "photo_12",
+            "title": "photo_12"
+        },
+        {
+            "src": "./photo_13_2026-08-17_22-46-57.jpg",
+            "alt": "photo_13",
+            "title": "photo_13"
+        },
+        {
+            "src": "./photo_14_2026-08-17_22-46-57.jpg",
+            "alt": "photo_14",
+            "title": "photo_14"
+        },
+        {
+            "src": "./photo_15_2026-08-17_22-46-57.jpg",
+            "alt": "photo_15",
+            "title": "photo_15"
+        },
+        {
+            "src": "./photo_16_2026-08-17_22-46-57.jpg",
+            "alt": "photo_16",
+            "title": "photo_16"
+        },
+        {
+            "src": "./photo_17_2026-08-17_22-46-57.jpg",
+            "alt": "photo_17",
+            "title": "photo_17"
+        },
+        {
+            "src": "./photo_18_2026-08-17_22-46-57.jpg",
+            "alt": "photo_18",
+            "title": "photo_18"
+        },
+        {
+            "src": "./photo_19_2026-08-17_22-46-57.jpg",
+            "alt": "photo_19",
+            "title": "photo_19"
+        },
+        {
+            "src": "./photo_20_2026-08-17_22-46-57.jpg",
+            "alt": "photo_20",
+            "title": "photo_20"
+        },
+        {
+            "src": "./photo_21_2026-08-17_22-46-57.jpg",
+            "alt": "photo_21",
+            "title": "photo_21"
+        },
+        {
+            "src": "./photo_22_2026-08-17_22-46-57.jpg",
+            "alt": "photo_22",
+            "title": "photo_22"
+        },
+        {
+            "src": "./photo_23_2026-08-17_22-46-57.jpg",
+            "alt": "photo_23",
+            "title": "photo_23"
+        },
+        {
+            "src": "./photo_24_2026-08-17_22-46-57.jpg",
+            "alt": "photo_24",
+            "title": "photo_24"
+        },
+        {
+            "src": "./photo_25_2026-08-17_22-46-57.jpg",
+            "alt": "photo_25",
+            "title": "photo_25"
+        },
+        {
+            "src": "./photo_26_2026-08-17_22-46-57.jpg",
+            "alt": "photo_26",
+            "title": "photo_26"
+        },
+        {
+            "src": "./photo_27_2026-08-17_22-46-57.jpg",
+            "alt": "photo_27",
+            "title": "photo_27"
+        },
+        {
+            "src": "./photo_28_2026-08-17_22-46-57.jpg",
+            "alt": "photo_28",
+            "title": "photo_28"
+        },
+        {
+            "src": "./photo_29_2026-08-17_22-46-57.jpg",
+            "alt": "photo_29",
+            "title": "photo_29"
+        },
+        {
+            "src": "./photo_30_2026-08-17_22-46-57.jpg",
+            "alt": "photo_30",
+            "title": "photo_30"
+        },
+        {
+            "src": "./photo_31_2026-08-17_22-46-57.jpg",
+            "alt": "photo_31",
+            "title": "photo_31"
+        },
+        {
+            "src": "./photo_32_2026-08-17_22-46-57.jpg",
+            "alt": "photo_32",
+            "title": "photo_32"
+        },
+        {
+            "src": "./photo_33_2026-08-17_22-46-57.jpg",
+            "alt": "photo_33",
+            "title": "photo_33"
+        },
+        {
+            "src": "./photo_34_2026-08-17_22-46-57.jpg",
+            "alt": "photo_34",
+            "title": "photo_34"
+        },
+        {
+            "src": "./photo_35_2026-08-17_22-46-57.jpg",
+            "alt": "photo_35",
+            "title": "photo_35"
+        },
+        {
+            "src": "./photo_36_2026-08-17_22-46-57.jpg",
+            "alt": "photo_36",
+            "title": "photo_36"
+        },
+        {
+            "src": "./photo_37_2026-08-17_22-46-57.jpg",
+            "alt": "photo_37",
+            "title": "photo_37"
+        },
+        {
+            "src": "./photo_38_2026-08-17_22-46-57.jpg",
+            "alt": "photo_38",
+            "title": "photo_38"
+        },
+        {
+            "src": "./photo_39_2026-08-17_22-46-57.jpg",
+            "alt": "photo_39",
+            "title": "photo_39"
+        },
+        {
+            "src": "./photo_40_2026-08-17_22-46-57.jpg",
+            "alt": "photo_40",
+            "title": "photo_40"
+        },
+        {
+            "src": "./photo_41_2026-08-17_22-46-57.jpg",
+            "alt": "photo_41",
+            "title": "photo_41"
+        },
+        {
+            "src": "./photo_42_2026-08-17_22-46-57.jpg",
+            "alt": "photo_42",
+            "title": "photo_42"
+        },
+        {
+            "src": "./photo_43_2026-08-17_22-46-57.jpg",
+            "alt": "photo_43",
+            "title": "photo_43"
+        },
+        {
+            "src": "./photo_44_2026-08-17_22-46-57.jpg",
+            "alt": "photo_44",
+            "title": "photo_44"
+        },
+        {
+            "src": "./photo_45_2026-08-17_22-46-57.jpg",
+            "alt": "photo_45",
+            "title": "photo_45"
+        },
+        {
+            "src": "./photo_46_2026-08-17_22-46-57.jpg",
+            "alt": "photo_46",
+            "title": "photo_46"
+        },
+        {
+            "src": "./photo_47_2026-08-17_22-46-57.jpg",
+            "alt": "photo_47",
+            "title": "photo_47"
+        },
+        {
+            "src": "./photo_48_2026-08-17_22-46-57.jpg",
+            "alt": "photo_48",
+            "title": "photo_48"
+        },
+        {
+            "src": "./photo_49_2026-08-17_22-46-57.jpg",
+            "alt": "photo_49",
+            "title": "photo_49"
+        },
+        {
+            "src": "./photo_50_2026-08-17_22-46-57.jpg",
+            "alt": "photo_50",
+            "title": "photo_50"
+        },
+        {
+            "src": "./photo_51_2026-08-17_22-46-57.jpg",
+            "alt": "photo_51",
+            "title": "photo_51"
+        },
+        {
+            "src": "./photo_52_2026-08-17_22-46-57.jpg",
+            "alt": "photo_52",
+            "title": "photo_52"
+        },
+        {
+            "src": "./photo_53_2026-08-17_22-46-57.jpg",
+            "alt": "photo_53",
+            "title": "photo_53"
+        },
+        {
+            "src": "./photo_54_2026-08-17_22-46-57.jpg",
+            "alt": "photo_54",
+            "title": "photo_54"
+        },
+        {
+            "src": "./photo_55_2026-08-17_22-46-57.jpg",
+            "alt": "photo_55",
+            "title": "photo_55"
+        },
+        {
+            "src": "./photo_56_2026-08-17_22-46-57.jpg",
+            "alt": "photo_56",
+            "title": "photo_56"
+        },
+        {
+            "src": "./photo_57_2026-08-17_22-46-57.jpg",
+            "alt": "photo_57",
+            "title": "photo_57"
+        },
+        {
+            "src": "./photo_58_2026-08-17_22-46-57.jpg",
+            "alt": "photo_58",
+            "title": "photo_58"
+        },
+        {
+            "src": "./photo_59_2026-08-17_22-46-57.jpg",
+            "alt": "photo_59",
+            "title": "photo_59"
+        },
+        {
+            "src": "./photo_60_2026-08-17_22-46-57.jpg",
+            "alt": "photo_60",
+            "title": "photo_60"
+        },
+        {
+            "src": "./photo_61_2026-08-17_22-46-57.jpg",
+            "alt": "photo_61",
+            "title": "photo_61"
+        },
+        {
+            "src": "./photo_62_2026-08-17_22-46-57.jpg",
+            "alt": "photo_62",
+            "title": "photo_62"
+        },
+        {
+            "src": "./photo_63_2026-08-17_22-46-57.jpg",
+            "alt": "photo_63",
+            "title": "photo_63"
+        },
+        {
+            "src": "./photo_64_2026-08-17_22-46-57.jpg",
+            "alt": "photo_64",
+            "title": "photo_64"
+        },
+        {
+            "src": "./video_2026-08-17_22-46-56 (2).mp4",
+            "alt": "video_64",
+            "title": "video_64",
+            "type": "video"
+        },
+        {
+            "src": "./video_2026-08-17_22-46-56 (3).mp4",
+            "alt": "video_64",
+            "title": "video_64",
+            "type": "video"
+        },
+        {
+            "src": "./video_2026-08-17_22-46-56 (4).mp4",
+            "alt": "video_64",
+            "title": "video_64",
+            "type": "video"
+        },
+        {
+            "src": "./video_2026-08-17_22-46-56 (5).mp4",
+            "alt": "video_64",
+            "title": "video_64",
+            "type": "video"
+        },
+        {
+            "src": "./video_2026-08-17_22-46-56.mp4",
+            "alt": "video_64",
+            "title": "video_64",
+            "type": "video"
+        }
+    ],
+    "visible": true
+}
