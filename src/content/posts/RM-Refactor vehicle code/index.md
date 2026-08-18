@@ -8,7 +8,7 @@ tags: [崇实战队整车框架]
 category: RM
 licenseName: "CC BY 4.0"
 author: RYCD
-draft: false
+draft: true
 cover: '/assets/images/WUST_RM_logo.png'
 copyProtection:
     blockSelection: false
