@@ -22,6 +22,7 @@ copyProtection:
 ## git是什么，有什么功能  
 
 ### 是什么
+
 git 是一个版本控制系统，记录工程的改动
 
 ### 功能
@@ -34,9 +35,9 @@ git 是一个版本控制系统，记录工程的改动
 - 标签与发布
 - 等
 
-git与现代IDE深度集成，不用git你的IDE就是不完整的   ~~你只用keil？彳亍~~  
+git与现代IDE深度集成  
 
-同时，使用AI辅助coding和vibe coding时，AI也会调用git帮你查阅工程  
+同时，使用AI辅助coding和vibe coding时，AI也会调用git  
 ![AI_uses_Git](./AI_uses_Git.png)  
 
 ## 入门指南  
@@ -45,9 +46,9 @@ git与现代IDE深度集成，不用git你的IDE就是不完整的   ~~你只用
 
 #### 安装git
 
-- Windows：从 https://git-scm.com/downloads 获取 Git for Windows，按默认选项安装即可
+- Windows：从 <https://git-scm.com/downloads> 获取 Git for Windows，按默认选项安装即可
 - macOS：从 Homebrew 安装：`brew install git`
-- Linux：你都用linux还需要我教？
+- Linux：你都用linux了还需要我教？
 
 #### 初步配置
 
@@ -153,29 +154,31 @@ git仓库分为工作区和版本库。工作区即你的仓库中能看到的�
 
 #### git add 从工作区添加到暂存区
 
-`git add <相对路径：以当前目录为基>`
-
-> 这里的路径可以使文件也可以是文件夹  
->
-> 不知道什么是工作区的罚你去看 [基本概念](#2-基本概念)  
-
-从工作区添加 USART_Driver.c 到暂存区，使其下次提交时存入版本库
+从工作区添加 USART_Driver.c 文件到暂存区，使其下次提交时存入版本库
 
 `git add Project/Communicate_Drivers/USART_Driver.c`
 
+从工作区添加 Commnuicate_Drivers 文件夹到暂存区，使其下次提交时存入版本库
+
+> 不知道什么是工作区的罚你去看 [基本概念](#2-基本概念)  
+>
 > 我们新建/更改的文件&文件夹不会自动添加到暂存区中，所以建议每次提交前都add一次  
 >
-> 一般我们git的工作路径（当前基路径）就是库根目录，所以我们可以使用`git add .`("."代表当前目录)直接将整个工程添加到暂存区，自动包含所有更改，新增，删除文件，十分好用  
+> 一般我们git的工作路径（当前基路径）就是库根目录同时，也是工程根目录，所以我们可以使用`git add .`("."代表当前目录)直接将整个工程添加到暂存区，自动包含所有更改，新增，删除文件，十分好用  
 
 ---
 
 #### .gitignore 忽略文件
+
+gitignore不是命令
 
 在仓库根目录下建一个 `.gitignore` 文件，写下不希望被 git 追踪的文件/文件夹，它们就不会出现在 `git status` 里，也不会被 `git add .` 误加进暂存区
 
 小示例：
 
 ```RegEx
+#.gitignore文件中
+
 # 编译产物
 build/
 Debug/
@@ -187,10 +190,12 @@ Release/
 # IDE / 系统配置文件
 .vscode/
 
-【洞被望湿之嗨道缝允而湿黏】全17集 超清中字（未删减版）
+#?
+
+【东北往事之黑道风云二十年】全17集 超清中字（未删减版）
 ```
 
-> 编译产物、个人 IDE 配置还有东北往事之黑道风云二十年(划掉x)这种东西建议别提交，不然别人 clone 下来一坨（  
+> 编译产物、个人 IDE 配置还有[~~东北往事之黑道风云二十年~~](https://www.bilibili.com/video/BV1Yx6dB5Ezs/?spm_id_from=333.337.search-card.all.click)这种东西建议别提交，不然别人 clone 下来一坨（  
 >
 > 使用[正则表达式](https://www.runoob.com/regexp/regexp-tutorial.html)
 
@@ -204,15 +209,21 @@ Release/
 
 > -m: message  
 >
+> commit 即是提交(n)
+>
+> 提交的位置是HEAD指向的分支上
+>
+> 如果你通过`git switch`让HEAD直接指向某个提交(n)，此时提交(v)的提交(n)将不属于任何分支，HEAD回到分支上时，将无法看到该提交
+>
 > 建议每次提交都带上`-m "描述"`，否则会打开编辑器让你手动填写描述  
 >
-> 不知道什么是暂存区的罚你去看[基本概念](#2-基本概念)
+> 不知道什么是暂存区的罚你去看[基本概念](#2-基本概念)  
 
 ---
 
 #### git push 推送提交到远端
 
-将本地提交上传到远端仓库（如 github），让队友能拉到你的代码
+将本地提交上传到远端仓库（如 github），让别人能拉到你的代码
 
 `git push`
 
@@ -243,6 +254,10 @@ Release/
 回到提交哈希为`a1b2c3d`的提交
 
 `git reset a1b2c3d`
+
+> 自己玩的时候可以用，多人协作勿用
+>
+> 标准回档方法参见[从历史节点新建分支](#从历史节点新建分支)  
 
 :::caution
 `git reset` 会让你的提交历史也回到旧的状态，导致无法看到那以后的提交，若还想再回到新提交只能使用 `git reflog` 查看完整的提交历史再 `git reset` 回去 ，同时也因此只适合还没push的本地提交，如果你已经push了，请使用`git revert` 撤销提交。
@@ -295,7 +310,7 @@ Release/
 
 在提交哈希为a1b2c3d的提交创建一个名为 feature/UART 的开发分支
 
-`git branch feature/UART a1b2c3e`
+`git branch feature/UART a1b2c3d`
 
 > 回档最正规的操作
 
@@ -325,7 +340,7 @@ Release/
 
 #### git switch 切换
 
-> 用于切换分支，添加-c(create)参数创建分支，也可以切换到历史提交临时看一下(但是不能代替reset回档)
+> 用于切换分支，添加-c(create)参数创建分支，也可以切换到历史提交临时看一下(但是不能用于回档)
 
 ---
 
@@ -363,7 +378,7 @@ Release/
 
 从提交哈希为a1b2c3d的节点创建并切换到feature/FDCAN分支
 
-`git switch -c feature/FDCAN a1b2c3e`
+`git switch -c feature/FDCAN a1b2c3d`
 
 ---
 
@@ -374,7 +389,7 @@ Release/
 将feature/USART合并到当前所在分支，如果当前在main那么就是把feature/USART合并到main
 
 > 合并前一定确定当前所在分支，使用git branch查看当前分支，或直接git switch [分支名]切换到被合并分支  
-> 若两个分支的同一行代码不一样，那么这里就会产生冲突，现代IDE一般会自带冲突处理界面让你选择冲突的地方是用哪一个分支的代码，也可以手动删除/修改冲突的代码使之不冲突了再合并
+> 若两个分支的同一处代码不一样，那么这里就会产生冲突，现代IDE一般会自带冲突处理界面让你选择冲突的地方是用哪一个分支的代码，也可以手动删除/修改冲突的代码使之不冲突了再合并
 
 ### 4. 参考工作流
 
@@ -387,26 +402,28 @@ Release/
 
 新建仓库
 
-`git init`
-⬇
-`github建仓库`
-⬇
-`根据github引导关联远程仓库，建立追踪关系`
+`git init`  
+⬇  
+`github建仓库`  
+⬇  
+`根据github引导关联远程仓库，建立追踪关系`  
 
-小改直接在main分支上开发，大改(我的概念是需要花一天以上)就建feature/xxx分支，改好了合入main
+小改直接在main分支上开发，但要保证main代码永远可用，大改(我的概念是需要花一天以上)就建feature/xxx分支，改好了合入main
 也就是说，大部分时间只用得到
 
 `git status`
-`git add`
-`git commit`
-`git push`
+`git add`  
+⬇  
+`git commit`  
+⬇  
+`git push`  
 
-干大事了
+干大事了  
 
 `git branch`
 `git switch`
 
-玩坏了(流泪)
+玩坏了(流泪)  
 
 `git reset`
 `git revert`
