@@ -423,7 +423,11 @@ Release/
 `git branch`
 `git switch`
 
-玩坏了(流泪)  
+玩坏了(泪)  
 
 `git reset`
 `git revert`
+
+#### 多人协作  
+
+如果要多人协作(如修改框架代码仓库)，请在自己的分支上工作再合并到main  
