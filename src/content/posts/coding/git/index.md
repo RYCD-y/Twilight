@@ -5,21 +5,19 @@ updated: 2026-08-14
 pinned: false
 description: 什么？你说你coding这么久了还不会git？
 tags: [git, github, 入门]
-category: 
-    - 编程技巧
-      - git
+category: 编程技巧
 licenseName: "CC BY 4.0"
 author: RYCD
 draft: false
 # cover: '/assets/images/Twilight.jpg'
 copyProtection:
-    blockSelection: false
-    blockClipboard: false
-    blockContextMenu: false
-    blockDevTools: false
+  blockSelection: false
+  blockClipboard: false
+  blockContextMenu: false
+  blockDevTools: false
 ---
 
-## git是什么，有什么功能  
+## git是什么，有什么功能
 
 ### 是什么
 
@@ -35,12 +33,12 @@ git 是一个版本控制系统，记录工程的改动
 - 标签与发布
 - 等
 
-git与现代IDE深度集成  
+git与现代IDE深度集成
 
 同时，使用AI辅助coding和vibe coding时，AI也会调用git  
-![AI_uses_Git](./AI_uses_Git.png)  
+![AI_uses_Git](./AI_uses_Git.png)
 
-## 入门指南  
+## 入门指南
 
 ### 1. 部署git
 
@@ -134,21 +132,21 @@ git仓库分为工作区和版本库。工作区即你的仓库中能看到的�
 
 `git init`
 
-> 今后的操作都要在git仓库中进行，要么是自己init，要么clone已有的仓库  
+> 今后的操作都要在git仓库中进行，要么是自己init，要么clone已有的仓库
 
 ---
 
 #### git clone 克隆仓库
 
-从github拉取代码  
+从github拉取代码
 
-`git clone git@github.com:WUST-RM-Control/infantryman-4-2026.git`  
+`git clone git@github.com:WUST-RM-Control/infantryman-4-2026.git`
 
-使用ssh从github拉取全向轮步兵整车代码到当前目录  
+使用ssh从github拉取全向轮步兵整车代码到当前目录
 
-> clone可以选用https协议或ssh协议，不知道用什么就用ssh（）  
+> clone可以选用https协议或ssh协议，不知道用什么就用ssh（）
 >
-> 若出现`ssh: connect to host github.com port 22: Connection timed out`报错大概率网络问题，可以切换上网方法或者尝试使用https  
+> 若出现`ssh: connect to host github.com port 22: Connection timed out`报错大概率网络问题，可以切换上网方法或者尝试使用https
 
 ---
 
@@ -160,11 +158,11 @@ git仓库分为工作区和版本库。工作区即你的仓库中能看到的�
 
 从工作区添加 Commnuicate_Drivers 文件夹到暂存区，使其下次提交时存入版本库
 
-> 不知道什么是工作区的罚你去看 [基本概念](#2-基本概念)  
+> 不知道什么是工作区的罚你去看 [基本概念](#2-基本概念)
 >
-> 我们新建/更改的文件&文件夹不会自动添加到暂存区中，所以建议每次提交前都add一次  
+> 我们新建/更改的文件&文件夹不会自动添加到暂存区中，所以建议每次提交前都add一次
 >
-> 一般我们git的工作路径（当前基路径）就是库根目录同时，也是工程根目录，所以我们可以使用`git add .`("."代表当前目录)直接将整个工程添加到暂存区，自动包含所有更改，新增，删除文件，十分好用  
+> 一般我们git的工作路径（当前基路径）就是库根目录同时，也是工程根目录，所以我们可以使用`git add .`("."代表当前目录)直接将整个工程添加到暂存区，自动包含所有更改，新增，删除文件，十分好用
 
 ---
 
@@ -191,11 +189,10 @@ Release/
 .vscode/
 
 #?
-
 【东北往事之黑道风云二十年】全17集 超清中字（未删减版）
 ```
 
-> 编译产物、个人 IDE 配置还有[~~东北往事之黑道风云二十年~~](https://www.bilibili.com/video/BV1Yx6dB5Ezs/?spm_id_from=333.337.search-card.all.click)这种东西建议别提交，不然别人 clone 下来一坨（  
+> 编译产物、个人 IDE 配置还有[~~东北往事之黑道风云二十年~~](https://www.bilibili.com/video/BV1Yx6dB5Ezs/?spm_id_from=333.337.search-card.all.click)这种东西建议别提交，不然别人 clone 下来一坨（
 >
 > 使用[正则表达式](https://www.runoob.com/regexp/regexp-tutorial.html)
 
@@ -207,7 +204,7 @@ Release/
 
 `git commit -m "添加了UART外设的驱动"`
 
-> -m: message  
+> -m: message
 >
 > commit 即是提交(n)
 >
@@ -215,9 +212,9 @@ Release/
 >
 > 如果你通过`git switch`让HEAD直接指向某个提交(n)，此时提交(v)的提交(n)将不属于任何分支，HEAD回到分支上时，将无法看到该提交
 >
-> 建议每次提交都带上`-m "描述"`，否则会打开编辑器让你手动填写描述  
+> 建议每次提交都带上`-m "描述"`，否则会打开编辑器让你手动填写描述
 >
-> 不知道什么是暂存区的罚你去看[基本概念](#2-基本概念)  
+> 不知道什么是暂存区的罚你去看[基本概念](#2-基本概念)
 
 ---
 
@@ -227,13 +224,13 @@ Release/
 
 `git push`
 
-> 若远端有你本地没有的提交，push 会被拒绝，需要先 `git pull` 拉下来再 push  
+> 若远端有你本地没有的提交，push 会被拒绝，需要先 `git pull` 拉下来再 push
 >
-> 新分支第一次 push 需要带上 `-u origin <分支名>` 指定上游分支，以后就能直接 `git push` 了  
+> 新分支第一次 push 需要带上 `-u origin <分支名>` 指定上游分支，以后就能直接 `git push` 了
 >
-> `git push -u origin feature/FDCAN`  
+> `git push -u origin feature/FDCAN`
 >
-> -u: upstream  
+> -u: upstream
 
 ---
 
@@ -243,7 +240,7 @@ Release/
 
 `git pull`
 
-> 相当于 `git fetch` + `git merge`，把别人的新代码合并进当前分支  
+> 相当于 `git fetch` + `git merge`，把别人的新代码合并进当前分支
 >
 > 多人协作建议每次开工前先 `git pull` 一次，以免云端与本地不同步，没pull就push的话云端与本地冲突就会push不上去
 
@@ -257,7 +254,7 @@ Release/
 
 > 自己玩的时候可以用，多人协作勿用
 >
-> 标准回档方法参见[从历史节点新建分支](#从历史节点新建分支)  
+> 标准回档方法参见[从历史节点新建分支](#从历史节点新建分支)
 
 :::caution
 `git reset` 会让你的提交历史也回到旧的状态，导致无法看到那以后的提交，若还想再回到新提交只能使用 `git reflog` 查看完整的提交历史再 `git reset` 回去 ，同时也因此只适合还没push的本地提交，如果你已经push了，请使用`git revert` 撤销提交。
@@ -283,8 +280,8 @@ Release/
 
 #### git branch 分支管理
 
->创建、重命名、查看、删除项目分支，通过 Git 做项目开发时，一般都是在开发分支中进行，开发完成后合并分支到主干，以保证main分支永远可用。  
->~~虽然但是，你main分支一柱擎天我也不会杀了你~~  
+> 创建、重命名、查看、删除项目分支，通过 Git 做项目开发时，一般都是在开发分支中进行，开发完成后合并分支到主干，以保证main分支永远可用。  
+> ~~虽然但是，你main分支一柱擎天我也不会杀了你~~
 
 ---
 
@@ -302,7 +299,7 @@ Release/
 
 `git branch feature/UART`
 
-> 仅创建分支，并不会移动到新分支上，移动位置见switch  
+> 仅创建分支，并不会移动到新分支上，移动位置见switch
 
 ---
 
@@ -322,9 +319,9 @@ Release/
 
 `git branch -m feature/UART feature/USART`
 
-> -m: move  
+> -m: move
 >
-> 初始仓库默认主分支名字是master，建议改为main  
+> 初始仓库默认主分支名字是master，建议改为main
 
 ---
 
@@ -334,7 +331,7 @@ Release/
 
 `git branch -d feature/USART`
 
-> -d: delete  
+> -d: delete
 
 ---
 
@@ -359,7 +356,7 @@ Release/
 `git switch -d a1b2c3d`
 
 > -d: detach  
-> ~~坏习惯~~: 不加-d也行，但是会弹警告  
+> ~~坏习惯~~: 不加-d也行，但是会弹警告
 >
 > 正常情况下 HEAD 指向当前分支，而分支指向提交，但执行`git switch -d`后，HEAD 直接指向某个提交本身，不再指向任何分支 此时 commit的提交不属于任何分支，一旦你切走到其他分支，这个提交就无~~~了（  
 > 所以只能用于临时查看历史提交代码
@@ -406,7 +403,7 @@ Release/
 ⬇  
 `github建仓库`  
 ⬇  
-`根据github引导关联远程仓库，建立追踪关系`  
+`根据github引导关联远程仓库，建立追踪关系`
 
 小改直接在main分支上开发，但要保证main代码永远可用，大改(我的概念是需要花一天以上)就建feature/xxx分支，改好了合入main
 也就是说，大部分时间只用得到
@@ -416,18 +413,18 @@ Release/
 ⬇  
 `git commit`  
 ⬇  
-`git push`  
+`git push`
 
-干大事了  
+干大事了
 
 `git branch`
 `git switch`
 
-玩坏了(泪)  
+玩坏了(泪)
 
 `git reset`
 `git revert`
 
-#### 多人协作  
+#### 多人协作
 
-如果要多人协作(如修改框架代码仓库)，请在自己的分支上工作再合并到main  
+如果要多人协作(如修改框架代码仓库)，请在自己的分支上工作再合并到main
